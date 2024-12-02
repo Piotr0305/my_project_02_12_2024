@@ -15,7 +15,7 @@ fn set_msg(new_msg: String) {
 }
 
 
-// #[ic_cdk::query]
-// fn greet(name: String) -> String {
-//     format!("Hello, {}!", name)
-// }
+#[ic_cdk::query]
+fn greet(name: String) -> String {
+    format!("Hello, {}!", name)
+}
